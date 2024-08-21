@@ -1,0 +1,101 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+.fade-in {
+  opacity: 0; /* 确保动画开始前元素不可见 */
+  animation: fadeInUp 1s ease forwards; /* 使用 forwards 使元素保持动画结束状态 */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* 开始时元素在其最终位置下方20px */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* 结束时元素移动到最终位置 */
+  }
+}
+
+.about-me-parent {
+  max-width: 1000px;
+  width: 100%;
+}
+.about-me-card {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0px 20px -2px #1f2235;
+}
+.about-me-profile {
+  width: 50%;
+  background-image: url("../../assets/AboutMe/me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border-radius: 50%; */
+  margin: 0 10px 0 0;
+  /* box-shadow: 0 0px 20px -2px #3c5878; */
+}
+.about-me-details {
+  width: 48%;
+  text-align: justify;
+  padding: 20px;
+}
+.about-me-description {
+  font-size: 12px;
+}
+.about-me-highlights {
+  margin: 50px 0;
+}
+.highlght-heading {
+  font-family: "Poppins Bold";
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+.highlight {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.highlight-blob {
+  height: 12px;
+  width: 12px;
+  margin: 0 10px 0 0;
+  background-color: #3c5878;
+  border-radius: 50%;
+}
+.about-me-options .highlighted-btn {
+  margin: 0 0 0 30px;
+}
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .about-me-parent {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .about-me-profile {
+    display: none;
+  }
+  .about-me-details {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .about-me-options {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-options .highlighted-btn {
+    margin: 24px 0 0 0 !important;
+  }
+  .about-me-options button {
+    width: 100%;
+  }
+}

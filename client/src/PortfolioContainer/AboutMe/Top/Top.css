@@ -1,0 +1,43 @@
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 80px;
+  width: 100%;
+  background-color: #f8e5d1;
+}
+
+.top-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px; /* 可根据需要调整最大宽度 */
+}
+
+.top-text {
+  display: flex;
+  font-family: "Poppins Bold";
+  color: #3a5779;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.top-text span {
+  flex: 1; /* 确保三个span元素均等分布空间 */
+  text-align: center; /* 文本居中 */
+}
+
+@media only screen and (max-width: 768px) {
+  .top-parent,
+  .top-text {
+    flex-direction: column;
+  }
+
+  .top-text span {
+    margin: 10px 0; /* 在竖直排布时增加上下间距 */
+  }
+}

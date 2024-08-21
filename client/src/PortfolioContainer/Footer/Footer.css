@@ -1,0 +1,28 @@
+.footer-container {
+  font-family: "Poppins Bold";
+  margin-top: 40px;
+  background-color: #f8e5d1;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
+  background-color: #3a5779;
+  color: #ffffff;
+  width: 60px; /* 设置宽度 */
+  height: 60px; /* 设置高度 */
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 创建圆形效果 */
+  cursor: pointer;
+  font-size: 30px; /* 调整字体大小 */
+}

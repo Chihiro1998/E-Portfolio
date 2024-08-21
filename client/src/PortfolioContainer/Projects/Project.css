@@ -1,0 +1,196 @@
+.project-container {
+  padding: 50px;
+  background-color: #f7f2cb;
+  color: white;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.project-container.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-section {
+  text-align: center;
+  max-width: 90%; /* 增加整体宽度 */
+  margin: 0 auto; /* 中央对齐 */
+}
+
+.project-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px; /* 增加Tab和Project之间的空间 */
+  background: rgba(255, 255, 255, 0.2); /* 半透明背景 */
+  border-radius: 25px; /* 倒角 */
+  padding: 5px;
+  max-width: 80%; /* 缩短Tab的整体长度 */
+  margin: 0 auto; /* 中央对齐 */
+}
+
+.tab-button {
+  flex: 1; /* 平均分配空间 */
+  background: transparent; /* 背景透明 */
+  border: none;
+  padding: 10px 20px;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, border 0.3s;
+  border-radius: 0; /* 取消内部按钮的倒角 */
+}
+
+.tab-button:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.tab-button:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.tab-button.active {
+  background: linear-gradient(to right, #e6e18d, #336c4b); /* 渐变背景 */
+  border: none !important; /* 无边框，并使用重要性声明覆盖其他样式 */
+  outline: none !important; /* 确保没有外部轮廓 */
+}
+
+.tab-button:hover {
+  background: linear-gradient(to right, #e6e18d, #336c4b);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* 增加项目和Tab栏之间的距离 */
+}
+
+.project-item {
+  display: flex;
+  margin-bottom: 40px; /* 增加项目框之间的间距 */
+  width: 100%;
+  max-width: 1500px; /* 增加项目项的总长度 */
+  align-items: center;
+}
+
+.project-image-container {
+  position: relative;
+  width: 450px; /* 调整为横向长方形 */
+  height: 270px; /* 调整高度 */
+  border-radius: 20px; /* 增大倒角 */
+  background-color: rgba(255, 255, 255, 0.1); /* 背景色用于展示大小 */
+  margin-right: 40px; /* 增加项目图片和介绍部分的距离 */
+  overflow: hidden; /* 确保子元素被裁剪 */
+  flex-shrink: 0; /* 防止图片容器缩小 */
+}
+
+.project-image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; /* 增大倒角 */
+  object-fit: cover; /* 确保图片覆盖整个容器 */
+}
+
+.project-image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(58, 87, 121, 0.6),
+    rgba(36, 99, 47, 0.568)
+  ); /* 蓝绿渐变，遮罩半透明 */
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.project-name-overlay {
+  color: white;
+  font-size: 20px; /* 调整字体大小 */
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-description {
+  max-width: 1000px; /* 增加字体部分的宽度 */
+  text-align: left;
+  color: black; /* 改为黑色 */
+}
+
+.project-name {
+  color: black; /* 改为黑色 */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  color: #3a5779; /* 技术栈字体颜色 */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.project-Introduction {
+  font-size: 15px;
+  margin-bottom: 10px; /* 与Bullet point保持距离 */
+}
+
+.bullet-point {
+  font-size: 12px;
+  margin-bottom: 5px; /* Bullet point之间的距离 */
+}
+
+.github-link {
+  display: block;
+  margin-top: 10px;
+  color: #ff758c;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.github-link:hover {
+  color: #ff7eb3;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .project-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-button {
+    margin-bottom: 10px;
+    border-radius: 25px; /* 变成椭圆形 */
+    width: 80%;
+  }
+
+  .project-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-description {
+    max-width: 100%;
+    text-align: left; /* 手机上字体左对齐 */
+  }
+
+  .project-image-container {
+    display: none; /* 隐藏项目图片 */
+  }
+}

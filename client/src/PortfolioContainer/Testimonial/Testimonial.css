@@ -1,0 +1,89 @@
+.testimonial-section {
+  padding: 80px 0 80px;
+  background-image: url("../../../src/assets/Testimonial/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.testimonial-section .testi-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.testimonial-section .testi-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.testimonial-section.testi-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.testimonial-section .testi-item p .fa-quote-left,
+.testimonial-section .testi-item p .fa-quote-right {
+  color: #3a5779; /* 设置引号颜色 */
+}
+
+.testimonial-section .testi-item .stars {
+  display: flex; /* 确保星星图标以flex布局排列，有助于在需要时调整间距等样式 */
+  align-items: center; /* 使星星垂直居中 */
+  justify-content: start; /* 使星星从左侧开始排布 */
+}
+
+.testimonial-section .testi-item .stars li {
+  list-style-type: none; /* 移除列表项目前的默认标记 */
+}
+
+.testimonial-section .testi-comment.stars li {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.testimonial-section .testi-item .stars li i {
+  font-size: 20px;
+  color: #f0e68c; /* 设置星星图标颜色为黄色 */
+  margin-right: 5px; /* 设置星星之间的间距 */
+}
+
+.testimonial-section .testi-item.client-info {
+  position: relative;
+  padding-left: 80px;
+  padding-left: 80px;
+  min-height: 60px;
+}
+
+/* 添加使图片成为圆形的CSS */
+.testimonial-section .testi-item .client-info img {
+  border-radius: 50%; /* 使图片完全圆形 */
+  width: 90px; /* 或根据需要调整宽度 */
+  height: 90px; /* 保持和宽度一致以确保圆形 */
+  object-fit: cover; /* 确保图片内容适合容器，保持宽高比 */
+  border: 2px solid transparent; /* 为图片添加边框 */
+  margin-bottom: 20px; /*根据布局需要可能需要调整 */
+}
+
+.testimonial-section .testi-item .client-info h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 0 0 2px;
+}
+
+.testimonial-section .testi-item .client-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
