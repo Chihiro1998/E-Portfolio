@@ -71,8 +71,8 @@ The project will be available at http://localhost:3000
 
 ### 📩 Contact Me
 💌 Email: kuangyuchen0301@gmail.com
-💼 LinkedIn: Your LinkedIn
-💻 GitHub: Chihiro1998
+💼 LinkedIn: https://www.linkedin.com/in/yuchen-kuang-0922b7287/
+💻 GitHub: 
 
 ### ⭐ Support
 If you find this project useful, feel free to Star ⭐ the repository! 🎉
