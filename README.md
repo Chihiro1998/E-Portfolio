@@ -39,5 +39,6 @@ git clone https://github.com/Chihiro1998/E-Portfolio.git
 cd E-Portfolio
 ```
 
-### 2️⃣ ** Install Dependencies **
+### 2️⃣ Install Dependencies
 ```bash
+yarn install
