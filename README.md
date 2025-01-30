@@ -42,11 +42,26 @@ cd E-Portfolio
 ### 2️⃣ Install Dependencies
 ```bash
 yarn install
-
+```
 ### 3️⃣ Run the Development Server
 ```bash
 yarn dev
-
+```
 The project will be available at http://localhost:3000
 
 ## 📷 Screenshots
+<img width="1274" alt="1792bdde321768de114a14f6bf8f74d" src="https://github.com/user-attachments/assets/38a3d353-a5e0-40ec-bc10-5cf3169d243b" />
+<img width="1274" alt="55afb3c12ea4eb73df7ba19b077f749" src="https://github.com/user-attachments/assets/bf6de221-63b8-45eb-a44a-e7b2ea8dffda" />
+<img width="1274" alt="c239744a74e426a093a315b4db6410e" src="https://github.com/user-attachments/assets/3bd58e47-d050-4d54-afd1-3f4e145fe10a" />
+<img width="1169" alt="657dd1dd6cd3ce7fb03abb65af8d5ba" src="https://github.com/user-attachments/assets/1c82dc09-ac3f-47b6-a777-953f240109d4" />
+<img width="1274" alt="b9798867b8c3de62f059ca71347eed8" src="https://github.com/user-attachments/assets/971cb106-74d1-4949-90bc-452c770baff6" />
+<img width="1056" alt="ebd5bada24d1bcc8f6a3f847aba9c7e" src="https://github.com/user-attachments/assets/f504229b-28c4-4643-b176-da2a7b2d118b" />
+
+
+### 📩 Contact Me
+💌 Email: kuangyuchen0301@gmail.com
+💼 LinkedIn: Your LinkedIn
+💻 GitHub: Chihiro1998
+
+### ⭐ Support
+If you find this project useful, feel free to Star ⭐ the repository! 🎉
