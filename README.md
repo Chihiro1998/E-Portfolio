@@ -70,9 +70,9 @@ The project will be available at http://localhost:3000
 
 
 ### 📩 Contact Me
-💌 Email: kuangyuchen0301@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/yuchen-kuang-0922b7287/
-💻 GitHub: 
+💌 Email: kuangyuchen0301@gmail.com <br/>
+💼 LinkedIn: https://www.linkedin.com/in/yuchen-kuang-0922b7287/<br/>
+💻 GitHub: https://github.com/Chihiro1998<br/>
 
 ### ⭐ Support
 If you find this project useful, feel free to Star ⭐ the repository! 🎉
