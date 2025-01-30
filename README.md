@@ -42,3 +42,11 @@ cd E-Portfolio
 ### 2️⃣ Install Dependencies
 ```bash
 yarn install
+
+### 3️⃣ Run the Development Server
+```bash
+yarn dev
+
+The project will be available at http://localhost:3000
+
+## 📷 Screenshots
