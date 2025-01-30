@@ -58,6 +58,14 @@ The project will be available at http://localhost:3000
 <img width="1056" alt="ebd5bada24d1bcc8f6a3f847aba9c7e" src="https://github.com/user-attachments/assets/f504229b-28c4-4643-b176-da2a7b2d118b" />
 
 ### Responsive design
+<img width="156" alt="6eb36fb8407c8c814711982abfcc5c3" src="https://github.com/user-attachments/assets/e4f2b422-31c8-4d68-bdf5-e79d9fd999d3" />
+<img width="156" alt="9727aeff2af632b0a88c119f8b97910" src="https://github.com/user-attachments/assets/d6687bcd-a4d1-47f2-aa83-3e4df07d0194" />
+<img width="156" alt="56660f1d70e168ff1f21127f24d0d71" src="https://github.com/user-attachments/assets/12543ede-4211-4b71-9a42-32218ebf783e" />
+<img width="156" alt="292eea644660d1badc279d391828b10" src="https://github.com/user-attachments/assets/a2785d0a-2201-4712-921d-e5ac2a72c7b2" />
+<img width="156" alt="2839c6ff7d116a4ac93f234738e981d" src="https://github.com/user-attachments/assets/07c5258f-8de4-4f08-9e85-7a71c765bc30" />
+<img width="156" alt="f974ca10a55a06835553154845af434" src="https://github.com/user-attachments/assets/b6626bd4-d944-4232-b48b-63cfa6f67ab2" />
+
+
 
 
 
