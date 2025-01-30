@@ -57,6 +57,9 @@ The project will be available at http://localhost:3000
 <img width="1274" alt="b9798867b8c3de62f059ca71347eed8" src="https://github.com/user-attachments/assets/971cb106-74d1-4949-90bc-452c770baff6" />
 <img width="1056" alt="ebd5bada24d1bcc8f6a3f847aba9c7e" src="https://github.com/user-attachments/assets/f504229b-28c4-4643-b176-da2a7b2d118b" />
 
+### Responsive design
+
+
 
 ### 📩 Contact Me
 💌 Email: kuangyuchen0301@gmail.com
